@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nakshatra Star Boutique | Custom Stitching &amp; Design, Visakhapatnam</title>
+<meta name="description" content="Custom designs, made-to-measure stitching and quality fabrics at Nakshatra Star Boutique, Gajuwaka, Visakhapatnam.">
+<link rel="icon" href="logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Mukta:wght@400;600&display=swap" rel="stylesheet">
+<script>document.documentElement.className='js'</script>
+<style>
+:root{--black:#030303;--panel:#111018;--line:#2c2942;--orange:#f59a3c;--pink:#e0407a;--blue:#4a78e6;--text:#ece9f5;--muted:#a9a5c0;--grad:linear-gradient(90deg,var(--orange),var(--pink),var(--blue));--display:"Marcellus","Palatino Linotype",Georgia,serif;--body:"Mukta","Segoe UI",system-ui,sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:4.5rem}
+body{margin:0;font-family:var(--body);font-size:1.0625rem;line-height:1.65;color:var(--text);background:var(--black)}
+a{color:inherit}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+.wrap{max-width:68rem;margin:0 auto;padding:0 1.25rem}
+h1,h2,h3{font-family:var(--display);font-weight:400;margin:0}
+h2{font-size:clamp(1.7rem,4vw,2.4rem);line-height:1.2;margin-bottom:.5rem}
+h2::after{content:"";display:block;width:4rem;height:3px;background:var(--grad);margin-top:.7rem;border-radius:2px}
+.lead{color:var(--muted);max-width:38rem;margin:0 0 2rem}
+section{padding:4rem 0}
+.alt{background:var(--panel)}
+
+header{position:sticky;top:0;z-index:20;background:rgba(3,3,3,.92);backdrop-filter:blur(8px);border-bottom:1px solid #26233a}
+header .wrap{display:flex;justify-content:space-between;align-items:center;padding-top:.7rem;padding-bottom:.7rem;gap:1rem}
+.brand{display:flex;align-items:center;gap:.7rem;font-family:var(--display);font-size:1.1rem;text-decoration:none}
+.brand img{width:2.5rem;height:2.5rem;object-fit:cover;object-position:50% 30%;border-radius:50%}
+nav{display:flex;gap:1.3rem;align-items:center}
+nav a{text-decoration:none;font-size:.98rem;color:var(--muted);padding:.25rem 0;border-bottom:2px solid transparent}
+nav a:hover,nav a.on{color:var(--text);border-color:var(--pink)}
+.menu{display:none;background:none;border:1px solid var(--line);color:var(--text);border-radius:.5rem;padding:.4rem .75rem;font:inherit;cursor:pointer}
+
+.btn{display:inline-block;padding:.75rem 1.4rem;border-radius:2rem;text-decoration:none;font-weight:600;border:2px solid transparent;cursor:pointer;font-family:var(--body);font-size:1rem}
+.btn.fill{background:var(--grad);color:#150a10}
+.btn.fill:hover{filter:brightness(1.12)}
+.btn.line{border-color:var(--pink);color:var(--text);background:none}
+.btn.line:hover{background:rgba(224,64,122,.15)}
+.btns{display:flex;gap:.75rem;flex-wrap:wrap}
+
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:2rem;padding-top:3.5rem;padding-bottom:3rem}
+.hero h1{font-size:clamp(2.3rem,6vw,4rem);line-height:1.08;margin-bottom:1rem}
+.hero p{max-width:32rem;margin:0 0 1.5rem;color:var(--muted)}
+.hero img{width:100%;max-width:21rem;height:auto;justify-self:center}
+.chips{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1.5rem}
+.chips span{border:1px solid var(--line);border-radius:2rem;padding:.2rem .85rem;font-size:.92rem;color:var(--muted)}
+
+.steps{display:grid;grid-template-columns:15rem 1fr;gap:1.5rem}
+.tabs{display:flex;flex-direction:column;gap:.5rem}
+.tab{text-align:left;background:none;border:1px solid var(--line);color:var(--muted);border-radius:.75rem;padding:.8rem 1rem;font:inherit;cursor:pointer;transition:.2s}
+.tab:hover{border-color:var(--pink);color:var(--text)}
+.tab[aria-selected=true]{background:var(--grad);color:#150a10;border-color:transparent;font-weight:600}
+.panel{border:1px solid var(--line);border-radius:1rem;padding:1.75rem;background:var(--black);min-height:12rem}
+.panel h3{font-size:1.6rem;color:var(--orange);margin-bottom:.6rem}
+.panel p{margin:0;color:var(--muted)}
+
+.studio{display:grid;grid-template-columns:1fr 16rem;gap:2.5rem;align-items:start}
+.grp{margin-bottom:1.25rem}
+.grp b{display:block;font-family:var(--display);font-weight:400;font-size:1.1rem;margin-bottom:.45rem;color:var(--orange)}
+.opts{display:flex;gap:.5rem;flex-wrap:wrap}
+.opt{background:none;border:1px solid var(--line);color:var(--text);border-radius:2rem;padding:.35rem 1rem;font:inherit;font-size:.95rem;cursor:pointer;transition:.15s}
+.opt:hover{border-color:var(--pink)}
+.opt[aria-pressed=true]{background:var(--pink);border-color:var(--pink);color:#fff}
+.sw{width:2.1rem;height:2.1rem;border-radius:50%;border:3px solid transparent;cursor:pointer;padding:0;box-shadow:0 0 0 1px var(--line)}
+.sw[aria-pressed=true]{border-color:var(--text)}
+.preview{position:sticky;top:5.5rem;text-align:center;border:1px solid var(--line);border-radius:1rem;padding:1.25rem;background:var(--black)}
+.preview svg{width:100%;max-width:11rem;height:auto}
+.preview svg path{transition:fill .3s}
+.sum{font-size:.95rem;color:var(--muted);margin:.75rem 0 1rem;min-height:4.5rem}
+
+.q{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+details{border:1px solid var(--line);border-radius:.75rem;padding:.9rem 1.1rem;background:var(--black)}
+details[open]{border-color:var(--pink)}
+summary{cursor:pointer;font-family:var(--display);font-size:1.15rem;list-style:none;display:flex;justify-content:space-between;gap:1rem}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--orange);font-size:1.4rem;line-height:1}
+details[open] summary::after{content:"\2212"}
+details p{margin:.7rem 0 0;color:var(--muted)}
+
+.visit .wrap{display:grid;grid-template-columns:1fr 1.2fr;gap:2.5rem}
+address{font-style:normal;margin:0 0 1.25rem;color:var(--muted)}
+dl{margin:1.5rem 0 0;display:grid;grid-template-columns:6.5rem 1fr;gap:.4rem 1rem;color:var(--muted)}
+dt{font-weight:600;color:var(--text)}dd{margin:0}dd a{color:var(--orange)}
+.map{width:100%;height:100%;min-height:21rem;border:0;border-radius:1rem;filter:invert(.9) hue-rotate(180deg) saturate(.8)}
+
+.fab{position:fixed;right:1rem;bottom:1rem;z-index:30;background:var(--grad);color:#150a10;text-decoration:none;font-weight:600;padding:.7rem 1.2rem;border-radius:2rem;box-shadow:0 4px 18px rgba(0,0,0,.5)}
+footer{border-top:1px solid #26233a;padding:1.75rem 0 5rem;font-size:.95rem;color:var(--muted)}
+
+.js .rv{opacity:0;transform:translateY(18px);transition:opacity .6s,transform .6s}
+.js .rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.js .rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+
+@media (max-width:820px){
+  .menu{display:block}
+  nav{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:flex-start;background:var(--black);padding:1rem 1.25rem;border-bottom:1px solid var(--line);gap:.8rem}
+  nav.open{display:flex}
+  .hero .wrap,.steps,.studio,.q,.visit .wrap{grid-template-columns:1fr}
+  .hero img{max-width:13rem;order:-1}
+  .tabs{flex-direction:row;overflow-x:auto;padding-bottom:.25rem}
+  .tab{white-space:nowrap}
+  .preview{position:static}
+  section{padding:3rem 0}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="logo.jpg" alt="">Nakshatra Star Boutique</a>
+    <button class="menu" id="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" aria-label="Main">
+      <a href="#process">Our process</a>
+      <a href="#studio">Design studio</a>
+      <a href="#quality">Quality</a>
+      <a href="#visit">Visit us</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Your design, stitched to your fit</h1>
+        <p>Custom designs, made-to-measure stitching and quality fabrics, all under one roof at Nakshatra Star Boutique, Visakhapatnam. It's all about style.</p>
+        <div class="btns">
+          <a class="btn fill wa" href="#">Book a custom fitting</a>
+          <a class="btn line" href="#studio">Design your outfit</a>
+        </div>
+        <div class="chips"><span>Made to measure</span><span>Custom designs</span><span>Quality fabrics</span><span>Neat finishing</span></div>
+      </div>
+      <img src="logo.jpg" alt="Nakshatra boutique logo: a sewing machine inside a colourful mandala" width="308" height="347">
+    </div>
+  </div>
+
+  <section id="process" class="alt">
+    <div class="wrap rv">
+      <h2>How custom stitching works</h2>
+      <p class="lead">Tap a step to see what happens from the first idea to the final fitting.</p>
+      <div class="steps">
+        <div class="tabs" role="tablist" aria-label="Steps" id="tabs"></div>
+        <div class="panel" id="panel" role="tabpanel" aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="studio">
+    <div class="wrap rv">
+      <h2>Design your outfit</h2>
+      <p class="lead">Pick your choices, watch the colour change, then send your idea straight to the boutique on WhatsApp.</p>
+      <div class="studio">
+        <div id="opts"></div>
+        <div class="preview">
+          <svg viewBox="0 0 120 160" role="img" aria-label="Outfit preview in your chosen colour">
+            <path id="gar" d="M40 10Q60 30 80 10L108 28L98 58L86 50L92 150L28 150L34 50L22 58L12 28Z" fill="#b3305f" stroke="#ece9f5" stroke-width="1.5" stroke-linejoin="round"/>
+            <path d="M40 10Q60 30 80 10" fill="none" stroke="#ece9f5" stroke-width="1.5" opacity=".7"/>
+            <path d="M60 30V150" stroke="#ece9f5" stroke-width="1" opacity=".25"/>
+          </svg>
+          <p class="sum" id="sum"></p>
+          <a class="btn fill wa" id="send" href="#">Send on WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="quality" class="alt">
+    <div class="wrap rv">
+      <h2>Quality you can feel</h2>
+      <p class="lead">What we focus on in every piece we make.</p>
+      <!-- TODO: edit these four points to match your real practices -->
+      <div class="q">
+        <details open><summary>Chosen fabrics</summary><p>We help you pick fabric that suits the outfit, the weather and the occasion, from soft cotton for daily wear to rich silk for weddings.</p></details>
+        <details><summary>Precise measurements</summary><p>Every outfit starts with careful measurements, so the fit follows your body and not a standard size chart.</p></details>
+        <details><summary>Clean finishing</summary><p>Even seams, tidy inner finishing and proper lining. These are the details that make an outfit last through many wears.</p></details>
+        <details><summary>Trial and adjustments</summary><p>We check the fit with you before the outfit is final, and adjust it until it feels right.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section id="visit" class="visit">
+    <div class="wrap rv">
+      <div>
+        <h2>Visit the boutique</h2>
+        <address>
+          <strong>Nakshatra Star Boutique</strong><br>
+          Mustafa Junction, Kurmannapalem,<br>
+          Gajuwaka, Visakhapatnam, Andhra Pradesh 530046
+        </address>
+        <div class="btns">
+          <a class="btn fill" href="https://maps.app.goo.gl/brKWc7FQjcxDCm9F9" target="_blank" rel="noopener">Open in Google Maps</a>
+          <a class="btn line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Nakshatra+Star+Boutique+Mustafa+Junction+Kurmannapalem+Gajuwaka" target="_blank" rel="noopener">Get directions</a>
+        </div>
+        <!-- TODO: replace placeholders with real details -->
+        <dl>
+          <dt>Phone</dt><dd>+91 00000 00000</dd>
+          <dt>WhatsApp</dt><dd><a class="wa" href="#">Message us</a></dd>
+          <dt>Hours</dt><dd>Add your opening hours</dd>
+        </dl>
+      </div>
+      <iframe class="map" title="Map showing Nakshatra Star Boutique" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Nakshatra+Star+Boutique,+Mustafa+Junction,+Kurmannapalem,+Gajuwaka&amp;output=embed"></iframe>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">&copy; <span id="yr">2026</span> Nakshatra Star Boutique, Visakhapatnam. Online shopping coming soon.</div></footer>
+<a class="fab wa" href="#">Chat on WhatsApp</a>
+
+<script>
+(function(){
+var WA='910000000000'; /* TODO: your WhatsApp number with country code, no + or spaces */
+var $=function(s){return document.querySelector(s)};
+function link(msg){return 'https://wa.me/'+WA+'?text='+encodeURIComponent(msg)}
+document.querySelectorAll('.wa').forEach(function(a){a.href=link("Hello Nakshatra Star Boutique, I'd like to book a custom fitting.");a.target='_blank';a.rel='noopener'});
+$('#yr').textContent=new Date().getFullYear();
+
+/* mobile menu */
+var nav=$('#nav'),mb=$('#menu');
+mb.onclick=function(){var o=nav.classList.toggle('open');mb.setAttribute('aria-expanded',o)};
+nav.onclick=function(e){if(e.target.tagName==='A'){nav.classList.remove('open');mb.setAttribute('aria-expanded',false)}};
+
+/* process tabs */
+var steps=[
+['1. Idea','Tell us the occasion and show us a photo or sketch. We talk through the neckline, sleeves, cut and fall, and shape it into a design that suits you.'],
+['2. Fabric','Choose from fabrics that match your design and budget. We guide you on how each one drapes, feels and lasts.'],
+['3. Measurements','We take precise measurements and note your preferences, so the outfit is cut for you and not for a size chart.'],
+['4. Stitching','Your outfit is cut and stitched with attention to seams, lining and detailing at every stage.'],
+['5. Fitting','Try it on, tell us what to adjust, and we fine-tune the fit before the final finish and delivery.']];
+var tabs=$('#tabs'),panel=$('#panel');
+steps.forEach(function(s,i){var b=document.createElement('button');b.className='tab';b.setAttribute('role','tab');b.textContent=s[0];b.onclick=function(){show(i)};tabs.appendChild(b)});
+function show(i){[].forEach.call(tabs.children,function(t,j){t.setAttribute('aria-selected',i===j)});panel.innerHTML='<h3></h3><p></p>';panel.firstChild.textContent=steps[i][0].replace(/^\d\.\s/,'');panel.lastChild.textContent=steps[i][1]}
+show(0);
+
+/* design studio */
+var G=[['Outfit',['Blouse','Saree with fall','Lehenga','Salwar set','Kurti','Something else']],
+['Fabric',['Silk','Cotton','Georgette','Chiffon','Velvet']],
+['Occasion',['Wedding','Festival','Party','Daily wear']],
+['Fit',['Regular','Slim','Relaxed']]];
+var C=[['Rani pink','#b3305f'],['Marigold','#f0a63a'],['Royal blue','#3556c8'],['Emerald','#1f8a5f'],['Violet','#7b3fb5'],['Ivory','#ece4d2']];
+var pick={Outfit:'Kurti',Fabric:'Silk',Occasion:'Festival',Fit:'Regular',Colour:C[0][0]};
+var box=$('#opts');
+G.forEach(function(g){var d=document.createElement('div');d.className='grp';d.innerHTML='<b>'+g[0]+'</b><div class="opts"></div>';var o=d.lastChild;
+ g[1].forEach(function(v){var b=document.createElement('button');b.className='opt';b.textContent=v;b.onclick=function(){pick[g[0]]=v;sync()};b.dataset.g=g[0];o.appendChild(b)});box.appendChild(d)});
+var cd=document.createElement('div');cd.className='grp';cd.innerHTML='<b>Colour</b><div class="opts"></div>';
+C.forEach(function(c){var b=document.createElement('button');b.className='sw';b.style.background=c[1];b.title=c[0];b.setAttribute('aria-label',c[0]);b.dataset.n=c[0];b.dataset.h=c[1];b.onclick=function(){pick.Colour=c[0];sync()};cd.lastChild.appendChild(b)});
+box.appendChild(cd);
+function sync(){
+ document.querySelectorAll('.opt').forEach(function(b){b.setAttribute('aria-pressed',pick[b.dataset.g]===b.textContent)});
+ document.querySelectorAll('.sw').forEach(function(b){var on=pick.Colour===b.dataset.n;b.setAttribute('aria-pressed',on);if(on)$('#gar').setAttribute('fill',b.dataset.h)});
+ var t='I would like a '+pick.Outfit.toLowerCase()+' in '+pick.Fabric.toLowerCase()+', '+pick.Colour.toLowerCase()+', for a '+pick.Occasion.toLowerCase()+', with a '+pick.Fit.toLowerCase()+' fit.';
+ $('#sum').textContent=t;$('#send').href=link('Hello Nakshatra Star Boutique! '+t+' Can we plan a fitting?');
+}
+sync();
+
+/* scroll reveal and active nav */
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+document.querySelectorAll('.rv').forEach(function(e){io.observe(e)});
+var links=document.querySelectorAll('nav a'),so=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id)})})},{rootMargin:'-45% 0px -50% 0px'});
+document.querySelectorAll('main section').forEach(function(s){so.observe(s)});
+})();
+</script>
+</body>
+</html>
